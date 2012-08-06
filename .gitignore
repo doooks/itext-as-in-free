@@ -4,3 +4,4 @@
 *.war
 *.ear
 lib/iText.jar
+build/*
