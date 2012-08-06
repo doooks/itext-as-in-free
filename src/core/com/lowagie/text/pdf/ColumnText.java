@@ -1379,7 +1379,7 @@ public class ColumnText {
                 	yTemp -= footerHeight;
                 for (k = listIdx; k < table.size(); ++k) {
                     float rowHeight = table.getRowHeight(k);
-                    if (yTemp - rowHeight < minY)
+                    if (yTemp - rowHeight < minY + rowHeight)
                         break;
                     yTemp -= rowHeight;
                 }
