@@ -56,6 +56,10 @@
 		<ant antfile="ant/compile.xml" inheritAll="false" target="jar.toolbox" />
 	</target>
 
+	<target name="jar.debug">
+		<ant antfile="ant/compile.xml" inheritAll="false" target="jar.debug" />
+	</target>
+
     <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
     <!-- Make a new release after exporting the modules src/www from CVS  -->
     <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
